@@ -1,4 +1,4 @@
-name: "action-kcov"
+name: "kcov-action"
 author: williamdes
 description: "Use Kcov without having to install it and generate your coverage"
 inputs:
