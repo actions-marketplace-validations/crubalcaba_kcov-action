@@ -5,9 +5,8 @@ A GitHub action for kcov
 ## Example usage
 
 ```yml
-    - uses: actions/checkout@v2
     - name: get kcov version
-        uses: crubalcaba/action-kcov@latest
+        uses: crubalcaba/kcov-action@v1
         with:
-            cli-args: "--version"
+            cli-args: "output_path executable"
 ```
